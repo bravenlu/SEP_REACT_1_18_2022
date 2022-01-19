@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Sign Up</h1>
+    <div id="names">
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+    </div>
+    <input type="text" id="mobile" placeholder="Mobile No.">
+    <input type="text" id="emailAddress" placeholder="Email Address">
+    <div id="authentication">
+        <input type="text" id="password" placeholder="Password">
+        <input type="text" id="confirmPassword" placeholder="Confirm Password">
+    </div>
+    <div id="agreement">
+        <input type="checkbox">
+        <div id="agree">I Agree</div>
+        <div id="statement">
+            By clicking <span id="registerSpan">Register</span> , you agree to the <span id="terms">Terms and Conditions</span> set<br> 
+            out by this site, including our Cookie Use.
+        </div>
+    </div>
+    <div id="buttonContainer">
+        <button id="register">Register</button>
+        <button id="signIn">Sign In</button>
+    </div>
 </body>
 </html>
